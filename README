@@ -18,5 +18,5 @@ As the name indicates this is where the RoadWatch releases live. Typically there
 	b) org.weatherill.roadwatch-portlet_X.Y.Z.war - the RoadWatch portlet pre built for you. Includes a copy of the RoadWatch API jar
 
 -- Building & Deployment
-Building and deployment is done via an Ant build script (/build.xml). The default target ultimately produces a RoadWatch war file which then gets deployed into a Liferay installation. In order to do this build.xml makes use of a property in /build.properties that specifies the location of the Liferay server. You will probably have to change this value to reflect the setup of your machine.
+Building and deployment is done via an Ant build script (/org.weatherill.roadwatch/build.xml). The default target ultimately produces a RoadWatch war file which then gets deployed into a Liferay installation. In order to do this build.xml makes use of a property in /org.weatherill.roadwatch/build.properties that specifies the location of the Liferay server. You will probably have to change this value to reflect the setup of your machine.
 Note that it is assumed that you already have a Liferay installation up and running. If not (at the time of writing) Liferay can be downloaded along with the Tomcat web server from Liferay’s web site: www.liferay.com
