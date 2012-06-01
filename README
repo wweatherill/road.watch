@@ -1,6 +1,17 @@
 -- What is RoadWatch?
 RoadWatch is a tool for alerting road travellers to potential delays on a given Journey. It works by taking a journey and interrogating the UK Highways Agency RSS feed of road information for events whose locations overlap with the journey’s route.
 
+-- repository structure
+There are 2 directories on interest in the road.watch repository:
+
+1) org.weatherill.roadwatch
+This directory holds all the source code (Java and JavaScript), Portlet configurations, images and so on. If you're interested in seeing how RoadWatch works have a look in here.
+
+2) releases
+As the name indicates this is where the RoadWatch releases live. Typically there will be 2 different kind of file in here:
+	a) org.weatherill.roadwatch_X.Y.X.jar - the standalone RoadWatch API
+	b) org.weatherill.roadwatch-portlet_X.Y.Z.war - the RoadWatch portlet pre built for you. Includes a copy of the RoadWatch API jar
+
 -- Building & Deployment
 Building and deployment is done via an Ant build script (/build.xml). The default target ultimately produces a RoadWatch war file which then gets deployed into a Liferay installation. In order to do this build.xml makes use of a property in /build.properties that specifies the location of the liferay server. You will probably have to change this value to reflect the setup of your machine.
 Note that it is assumed that you already have a Liferay installation up and running. If not (at the time of writing) Liferay can be downloaded along with the Tomcat web server from Liferay’s web site: www.liferay.com
