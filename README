@@ -2,12 +2,17 @@
 RoadWatch is a tool for alerting road travellers to potential delays on a given Journey. It works by taking a journey and interrogating the UK Highways Agency RSS feed of road information for events whose locations overlap with the journey’s route.
 
 -- repository structure
-There are 2 directories on interest in the road.watch repository:
+There are 3 directories on interest in the road.watch repository:
 
-1) org.weatherill.roadwatch
+1) docs
+This directory is a useful place to visit if you want to know how RoadWatch has been designed and structured.
+	a) roadwatch.architecture.docx/pdf - Contains architectual documentation explaninig the ideas and principles behind RoadWatch
+	b) planned.feaures.docx/pdf - Contains known limitations aof the current release and future plans to improve RoadWatch
+
+2) org.weatherill.roadwatch
 This directory holds all the source code (Java and JavaScript), Portlet configurations, images and so on. If you're interested in seeing how RoadWatch works have a look in here.
 
-2) releases
+3) releases
 As the name indicates this is where the RoadWatch releases live. Typically there will be 2 different kind of file in here:
 	a) org.weatherill.roadwatch_X.Y.X.jar - the standalone RoadWatch API
 	b) org.weatherill.roadwatch-portlet_X.Y.Z.war - the RoadWatch portlet pre built for you. Includes a copy of the RoadWatch API jar
