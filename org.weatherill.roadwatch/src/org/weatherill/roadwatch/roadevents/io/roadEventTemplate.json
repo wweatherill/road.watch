@@ -1,0 +1,9 @@
+{
+  	"latitude": "$latitude",
+  	"longitude": "$longitude",
+  	"publishedDate": "$publishedDate",
+  	"title": "$title", 
+  	"category": "$category", 
+  	"description": "$description",
+  	"road": "$road"	
+}

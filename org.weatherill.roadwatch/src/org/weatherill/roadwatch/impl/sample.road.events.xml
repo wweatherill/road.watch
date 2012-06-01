@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0">
+	<channel>
+		<!-- Leeds to Sheffield -->
+		<item>
+			<category>Roadworks</category>
+			<description>Road works on the M1 (again). Just giving the cones an airing</description>
+			<pubDate>Mon, 21 May 2012 12:14:55 BST</pubDate>
+			<title>M1 | Southbound | Roadworks</title>
+			<road>M1</road>
+			<region>North East</region>
+			<county>West Yorkshire</county>
+			<latitude>53.80436000000001</latitude>
+			<longitude>-1.5430000000000064</longitude>
+		</item>
+		<item>
+			<category>Accident</category>
+			<description>Minor Accident on M1. 2 cars involved. Moved to hard shoulder. All lanes open.</description>
+			<pubDate>Mon, 21 May 2012 12:14:55 BST</pubDate>
+			<title>M1 | Northbound | Accident</title>
+			<road>M1</road>
+			<region>North East</region>
+			<county>West Yorkshire</county>
+			<latitude>53.49713000000001</latitude>
+			<longitude>-1.4751400000000103</longitude>
+		</item>
+		<!-- Doncaster to Sheffield -->
+		<item>
+			<category>No Delay</category>
+			<description>Verge trimming ongoing. No significant delays reported.</description>
+			<pubDate>Mon, 21 May 2012 12:14:55 BST</pubDate>
+			<title>M1 | Northbound | Roadworks</title>
+			<road>M1</road>
+			<region>North East</region>
+			<county>West Yorkshire</county>
+			<latitude>53.446277</latitude>
+			<longitude>-1.233666</longitude>
+		</item>
+		<item>
+			<category>Roadworks</category>
+			<description>Patching road surface. Lane 1 closed.</description>
+			<pubDate>Mon, 21 May 2012 12:14:55 BST</pubDate>
+			<title>M1 | Northbound | Roadworks</title>
+			<road>M1</road>
+			<region>North East</region>
+			<county>West Yorkshire</county>
+			<latitude>53.398735</latitude>
+			<longitude>-1.323702</longitude>
+		</item>				
+		<item>
+			<category>Roadworks</category>
+			<description>Major roadworks. Bride stengthening. Expect significant delays. If possible find an alternative route</description>
+			<pubDate>Mon, 21 May 2012 12:14:55 BST</pubDate>
+			<title>A630 | Eastbound and Westbound | Roadworks</title>
+			<road>A630</road>
+			<region>North East</region>
+			<county>West Yorkshire</county>
+			<latitude>53.39162</latitude>
+			<longitude>-1.375104</longitude>
+		</item>		
+	</channel>
+</rss>

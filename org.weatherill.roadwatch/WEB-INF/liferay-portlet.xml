@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 5.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_5_2_0.dtd">
+
+ <liferay-portlet-app>
+ 	<portlet>
+ 		<portlet-name>roadWatch</portlet-name>
+ 		<instanceable>true</instanceable> 
+ 		<header-portlet-css>/css/roadwatch.css</header-portlet-css>
+		<header-portlet-javascript>http://maps.google.com/maps/api/js?sensor=false</header-portlet-javascript>
+		<header-portlet-javascript>/js/roadwatch.js</header-portlet-javascript> 				
+ 	</portlet>
+ </liferay-portlet-app>    	
