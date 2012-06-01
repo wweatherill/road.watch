@@ -42,22 +42,6 @@
 		document.getElementById("routeEnd").value = exampleJourney.end;					
 	}
 	
-	function toggle(showHideDivId, imageDivId) 
-	{
-        var ele = document.getElementById(showHideDivId);
-        var imageDiv = document.getElementById(imageDivId);
-        if(ele.style.display == "block") 
-        {
-			ele.style.display = "none";	
-			imageDiv.innerHTML = '<img style="vertical-align:middle" src="${renderRequest.contextPath}/images/maximize_16x16.png" alt="Maximize content">'; 		
-        }
-        else 
-        {
-			ele.style.display = "block";           
-			imageDiv.innerHTML = '<img style="vertical-align:middle" src="${renderRequest.contextPath}/images/minimize_16x16.png" alt="Minimize content">';
-        }
-	}	
-	
     window.onload = initialize;	
 	
 </script>
